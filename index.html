@@ -21,7 +21,7 @@ function updateOrientation()
 {
   window.scrollTo(0, 1);
   if (!cvrImage) cvrImage =document.getElementById('cvr');
-  cvrImage.height=window.innerHeight;
+  cvrImage.height=window.innerHeight-70;
   if (window.orientation==0)
   {
     //updateStatus("View Portrait");
